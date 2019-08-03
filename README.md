@@ -1,0 +1,2 @@
+# jssnippets
+Useful JS Snippets
