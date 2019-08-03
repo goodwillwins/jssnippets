@@ -11,7 +11,7 @@ Object.prototype.selectRandom = function(){
     const sarr = this;
     if(typeof sarr == "object" && sarr.length){
         const selected = sarr[parseInt(Math.random()*sarr.length)]
-        if(typeof selected == "object" && selected.length)return selectRandom(selected);
+        if(typeof selected == "object" && selected.length)return sarr.selectRandom(selected);
         return selected;
     }
 }
