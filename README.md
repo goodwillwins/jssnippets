@@ -1,6 +1,8 @@
 # jssnippets
 Useful JS Snippets
 
+Select Random from a Multi dimensional Array using recursive function.
+
 
 ``` javascript
 var thingsMultiArr = [[".net Core" , "SQL", "JS" , "HTML" , "CSS"] , ["StackOverflow", "Github" , "LinkedIn" , "Twitter" , "Google" ], "Others" ];
