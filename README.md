@@ -5,7 +5,7 @@ Select Random from a Multi dimensional Array using recursive function.
 
 
 ``` javascript
-var thingsMultiArr = [[".net Core" , "SQL", "JS" , ["HTML" , "CSS"]] , ["StackOverflow", "Github" , "LinkedIn" , "Twitter" , "Google" ], "Others" ];
+var thingsMultiArr = [["1" , "2", "3" , ["a" , "b"]] , ["A", "B" , "C" , "D" , "E" ], "Others" ];
 //Test test123 Testbranch
 //master branch edit
 Object.prototype.selectRandom = function(){
